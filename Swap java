@@ -1,0 +1,19 @@
+public class Swap {
+    public static void main(String[] args){
+
+        int x = 0;
+        int y = 1;
+        System.out.println("Before swap x: " + x);
+        System.out.println("Before swap y: " + y);
+        
+        System.out.println("Swapping...");
+
+        int temp; //temporary varible
+        temp = x;
+        x = y; 
+        y = temp;
+        
+        System.out.println("After swap x: " + x);
+        System.out.println("After swap y: " + y);
+    }
+}
