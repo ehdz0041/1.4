@@ -1,0 +1,11 @@
+public class Copy {
+      public static void main(Strng[] args) {
+        int originalInt = 10;
+        int copiedInt = originalInt; // copiedInt now holds a separate copy of 10
+
+        copiedInt = 20; // Changing copiedInt does not affect originalInt
+
+        System.out.println("Original int: " + originalInt); // Output: Original int: 10
+        System.out.println("Copied int: " + copiedInt);     // Output: Copied int: 20
+      }
+}
