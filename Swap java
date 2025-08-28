@@ -1,10 +1,17 @@
+import java.vtill.Scanner;
+
 public class Swap {
     public static void main(String[] args){
-
-        int x = 0;
+        System.out.println("Please type in a name in the input box below");
+        Scanner scan = new Scaner (System.in);
+        String name = scan.nextLine();
+        System.out.println("Hello" + name );
+        
+        int x = ;
         int y = 1;
         System.out.println("Before swap x: " + x);
         System.out.println("Before swap y: " + y);
+        scan.close();
         
         System.out.println("Swapping...");
 
@@ -15,5 +22,7 @@ public class Swap {
         
         System.out.println("After swap x: " + x);
         System.out.println("After swap y: " + y);
+        
+
     }
 }
