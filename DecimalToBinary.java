@@ -13,6 +13,7 @@ public class DecimalToBinary {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Please type in a number in the input box below between 0-255.");
+        scan.close();
         int number = scan.nextInt();
         System.out.println("Binary:"+ toBinary(number));
     }
